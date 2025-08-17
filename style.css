@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1d3a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: justify;
+}
+div{
+    text-align: justify;
+}
+
+h1{
+    text-align: left;
+}
+header {
+    background-color: #08152b;
+    padding: 12px;
+    text-align: left;
+    
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+nav a.active {
+    border-bottom: 2px solid #4db8ff;
+}
+
+section {
+    padding: 20px;
+}
+.about {
+    text-align: center;
+    padding: 30px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    float: center;
+    border-radius: 50%;
+    border: 3px solid #4db8ff;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+form button {
+    background-color: #4db8ff;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    padding:20px
+}
